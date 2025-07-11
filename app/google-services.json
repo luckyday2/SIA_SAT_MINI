@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986329671427",
+    "project_id": "sia-sat",
+    "storage_bucket": "sia-sat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986329671427:android:9ee2fcd38e23f94dd12b36",
+        "android_client_info": {
+          "package_name": "com.sandria.sia_sat_mini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxxTxZ1U3mHQVLlXWDOYH6t_VAJkKsTmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

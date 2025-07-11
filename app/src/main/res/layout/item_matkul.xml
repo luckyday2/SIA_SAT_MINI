@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNamaMatkul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pemrograman Mobile"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvKodeMatkul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kode: IF1234" />
+
+        <TextView
+            android:id="@+id/tvSKS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKS: 3" />
+
+        <TextView
+            android:id="@+id/tvRuangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruangan: R204" />
+
+        <TextView
+            android:id="@+id/tvDosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dosen: Pilih Dosen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hapus"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

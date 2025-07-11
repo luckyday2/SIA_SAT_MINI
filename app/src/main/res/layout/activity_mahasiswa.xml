@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMahasiswa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAmbilMatkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambil Mata Kuliah" />
+
+    <Button
+        android:id="@+id/btnMatkulSaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah Saya"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLihatNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Nilai"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="8dp"/>
+
+    <FrameLayout
+        android:id="@+id/frameMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

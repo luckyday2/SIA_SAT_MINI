@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SIA - SAT_MINI</string>
+    <string-array name="user_roles">
+        <item>kaprodi</item>
+        <item>dosen</item>
+        <item>mahasiswa</item>
+    </string-array>
+
+</resources>
